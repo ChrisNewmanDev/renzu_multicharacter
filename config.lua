@@ -94,7 +94,7 @@ Config.SkinMenus = {
 		['example_resource'] = {exports = 'exports.example:Creator', event = nil, use = false}, -- example support exports
 	},
 	['illenium-appearance'] = {
-		['illenium-appearance'] = {event = 'illenium-appearance:client:openMenu', use = true},
+		['illenium-appearance'] = {exports = 'illenium-appearance:startPlayerCustomization', use = true},
 	},
 	['fivemappearance'] = {}, -- is there any creator uses fivemappearance? i will leave this todo for now
 	['qb-clothing'] = {
